@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.bugproject.MainActivity">
+
+    <Button
+        android:id="@+id/activity_main_btn_touch"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="Touch"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/activity_main_un"
+        android:textColor="#000"
+        android:text="Un"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_activity_btn_new"
+        android:textColor="#000000"
+        android:text="New"
+        android:layout_gravity="right"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activity_main_btn_log"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Log"
+        android:textColor="#000000"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/activity_main_btn_send"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textColor="#000000" />
+
+        <Button
+            android:textColor="#d1cfa2"
+            android:id="@+id/activity_main_btn_rlog"
+            android:text="RLog"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textColor="#d1cfa2"
+            android:id="@+id/activity_main_btn_rget"
+            android:text="RSEND"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/activity_main_btn_pic"
+            android:text="Take Picture"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/activity_main_btn_preview"
+            android:text="Preview"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>
